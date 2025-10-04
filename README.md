@@ -16,9 +16,9 @@ This project implements a cortical microcircuit model based on Izhikevich neural
 - Statistics and Machine Learning Toolbox (for PCA analysis)
 
 ## File Structure
-├── vip_pv_som_feedback_inh.m # Feedback inhibition experiment
-├── vip_pv_som_feedforward_inh.m # Feedforward inhibition experiment
-├── vip_pv_som_disinhibition.m # VIP disinhibition experiment
+├── vip_pv_som_feedback_inh.m # Modulating the activity of simulated feedback inhibitory neurons regulates the noise correlation between excitatory neurons.
+├── vip_pv_som_feedforward_inh.m # Modulating the activity of simulated feedforward inhibitory neurons regulates the noise correlation between excitatory neurons.
+├── vip_pv_som_disinhibition.m # Modulating the activity of simulated VIP disinhibition neurons regulates the noise correlation between excitatory neurons.
 ├── test_inhibitory_population_systematic_E.m # Systematic testing of the effects of inhibitory neuron count on network performance
 ├── LICENSE
 └── docs/
